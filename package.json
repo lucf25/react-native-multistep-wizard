@@ -1,21 +1,22 @@
 {
-	"name": "react-native-multistep-wizard",
-	"version": "0.1",
-	"description": "React native wizard",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"Multistep",
-		"Wizard",
-  		"android",
-		"ios"
-	],
-	"author": "Luis Enrique Cadena",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/lucf25/react-native-multistep-wizard"
-	}
+  "name": "react-native-wizard",
+  "version": "1.0.1",
+  "description": "React native wizard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucf25/react-native-multistep-wizard.git"
+  },
+  "keywords": [
+    "Wizard"
+  ],
+  "author": "LUCF25",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucf25/react-native-multistep-wizard/issues"
+  },
+  "homepage": "https://github.com/lucf25/react-native-multistep-wizard#readme"
 }
