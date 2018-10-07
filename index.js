@@ -1,9 +1,10 @@
-import React, { Component, PropTypes,  } from 'react';
+import React, { Component, PropTypes,   } from 'react';
 import {Container, Content} from 'native-base';
 import {
     View,
     ScrollView,
-    Alert
+    Alert,
+    SafeAreaView
 } from 'react-native'
 
 export default class MultiStep extends Component {
@@ -69,12 +70,12 @@ export default class MultiStep extends Component {
         
         
         return (
-            <Container>
-                <Content>
+            <SafeAreaView>
                     {this.state.steplist[this.state.curState]}
 
-                </Content>
-            </Container>
+            </SafeAreaView>
+
+              
                     
         
         )
