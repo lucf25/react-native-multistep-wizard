@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component, PropTypes,  } from 'react';
+import {Container, Content} from 'native-base';
 import {
     View,
     ScrollView,
@@ -68,12 +69,14 @@ export default class MultiStep extends Component {
         
         
         return (
-            <View>
-                <ScrollView>
-                   {this.state.steplist[this.state.curState]}
+            <Container>
+                <Content>
+                    {this.state.steplist[this.state.curState]}
+
+                </Content>
+            </Container>
                     
-                </ScrollView>
-            </View>
+        
         )
             
         
