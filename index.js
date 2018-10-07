@@ -4,9 +4,11 @@ import {
     View,
     ScrollView,
     Alert,
-    SafeAreaView
+    SafeAreaView,
+    Dimensions
 } from 'react-native'
-
+const width = Dimensions.get("window").width;
+const height = Dimensions.get("window").height;
 export default class MultiStep extends Component {
     
     constructor(props) {
@@ -70,7 +72,7 @@ export default class MultiStep extends Component {
         
         
         return (
-            <SafeAreaView>
+            <SafeAreaView style={{width: width, height: height}}>
                     {this.state.steplist[this.state.curState]}
 
             </SafeAreaView>
