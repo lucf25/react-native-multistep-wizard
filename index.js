@@ -72,10 +72,13 @@ export default class MultiStep extends Component {
         
         
         return (
-            <SafeAreaView style={{width: width, height: height}}>
-                    {this.state.steplist[this.state.curState]}
+            <Content style={{width: width, height: height}}>
+            <Container>
+            {this.state.steplist[this.state.curState]}
 
-            </SafeAreaView>
+            </Container>
+
+            </Content>
 
               
                     
