@@ -72,13 +72,12 @@ export default class MultiStep extends Component {
         
         
         return (
-            <Content style={{width: width, height: height}}>
-            <Container>
+            <View style={{width: width, height: height}}>
+            
             {this.state.steplist[this.state.curState]}
 
-            </Container>
 
-            </Content>
+            </View>
 
               
                     
